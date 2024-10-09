@@ -14,7 +14,6 @@ This project is a **Python script** that uses **Selenium** to check for movie ti
 - Automated movie ticket availability checks using Selenium.
 - Email notifications when tickets are available.
 - Logging of script activity and errors.
-- Option to display a "Get Tickets" button when tickets are available.
 - Uses `.env` file to store sensitive information like email credentials.
 
 ## Technologies
