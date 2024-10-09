@@ -18,7 +18,7 @@ This project is a **Python script** that uses **Selenium** to check for movie ti
 - Uses `.env` file to store sensitive information like email credentials.
 
 ## Technologies
-- **Python** (v3.x)
+- **Python** (v3.10)+
 - **Selenium** for web automation
 - **smtplib** for sending emails
 - **Logging** for recording script activity
@@ -51,7 +51,7 @@ This project is a **Python script** that uses **Selenium** to check for movie ti
 2. Run the script:
 
     ```bash
-    python movie_ticket_checker.py
+    python src\main.py
     ```
 
 3. The script will:
