@@ -47,13 +47,15 @@ This project is a **Python script** that uses **Selenium** to check for movie ti
 ## Usage
 1. Make sure you have configured your `.env` file with your email credentials and other necessary information (see [Configuration](#configuration)).
 
-2. Run the script:
+2. For the page, make sure it's the movie's individual page where it should usually have the 'Get Tickets' button.
+
+4. Run the script:
 
     ```bash
     python src\main.py
     ```
 
-3. The script will:
+5. The script will:
    - Continuously check for ticket availability.
    - Send an email notification if tickets are available.
    - Log activity to a file in the `logs/` directory.
